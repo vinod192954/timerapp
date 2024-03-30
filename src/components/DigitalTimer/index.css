@@ -1,0 +1,94 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.controllings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.time-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: contain; /* Adjust to 'cover' if needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer-container {
+  background-color: #ffffff;
+  border-radius: 100px;
+  padding: 10px;
+  height: 200px;
+  width: 200px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #70d1b9;
+}
+.status {
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 15px;
+}
+.timer-controls {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+  justify-content: space-around;
+}
+.img-custom {
+  height: 50px;
+  cursor: pointer;
+}
+.timing-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-width: 0px;
+  background-color: transparent;
+}
+.time-settings-container {
+  display: flex;
+  flex-direction: column;
+}
+.changing-time-limit {
+  background-image: linear-gradient(to left, #70d1b9, #00d9f5);
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 5px;
+}
+.setting {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.btn {
+  border-width: 0px;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 30px;
+  cursor: pointer;
+}
+.setting-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
